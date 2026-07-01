@@ -39,8 +39,8 @@ const Contact = () => {
                 <Mail size={26} />
               </div>
               <h3 className="font-bold mb-3">Email Us</h3>
-              <a href="mailto:info@radjefootballacademy.com" className="text-gray-700 hover:text-pillars-green font-medium break-all">
-                info@radjefootballacademy.com
+              <a href="mailto:footballradje@gmail.com" className="text-gray-700 hover:text-pillars-green font-medium break-all">
+                footballradje@gmail.com
               </a>
             </div>
 
@@ -81,7 +81,7 @@ const Contact = () => {
               <a href="tel:08038730000" className="pillars-button-primary inline-flex items-center justify-center gap-2">
                 <Phone size={18} /> 0803 873 0000
               </a>
-              <a href="mailto:info@radjefootballacademy.com" className="pillars-button bg-white/10 text-white border border-white/30 hover:bg-white/20 inline-flex items-center justify-center gap-2">
+              <a href="mailto:footballradje@gmail.com" className="pillars-button bg-white/10 text-white border border-white/30 hover:bg-white/20 inline-flex items-center justify-center gap-2">
                 <Mail size={18} /> Email Our Team
               </a>
             </div>

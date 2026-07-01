@@ -3,21 +3,23 @@ import { User } from "lucide-react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import garbaAbbas from "@/assets/garba-abbas.jpg.asset.json";
-
 const players = [
-  { name: "Garba Abbas", number: 15, position: "Forward", squad: "Elite U17", age: 16, foot: "Right", image: garbaAbbas.url },
-  { name: "Abdul Rahman", number: 1, position: "Goalkeeper", squad: "Elite U19", age: 18, foot: "Right" },
-  { name: "Ibrahim Sani", number: 2, position: "Right Back", squad: "Elite U19", age: 17, foot: "Right" },
-  { name: "Musa Yakubu", number: 4, position: "Centre Back", squad: "Elite U17", age: 16, foot: "Left" },
-  { name: "Chinedu Okafor", number: 5, position: "Centre Back", squad: "Elite U19", age: 18, foot: "Right" },
-  { name: "Aliyu Bello", number: 3, position: "Left Back", squad: "Development U13", age: 13, foot: "Left" },
-  { name: "Tunde Adeyemi", number: 6, position: "Defensive Mid", squad: "Elite U17", age: 16, foot: "Right" },
-  { name: "Samuel Ojo", number: 8, position: "Central Mid", squad: "Elite U19", age: 17, foot: "Right" },
-  { name: "Yusuf Idris", number: 10, position: "Attacking Mid", squad: "Elite U17", age: 15, foot: "Left" },
-  { name: "Emeka Nwosu", number: 7, position: "Right Winger", squad: "Elite U19", age: 18, foot: "Right" },
-  { name: "Bashir Garba", number: 11, position: "Left Winger", squad: "Development U13", age: 13, foot: "Right" },
-  { name: "Daniel Eze", number: 9, position: "Striker", squad: "Elite U19", age: 18, foot: "Right" },
-  { name: "Hassan Bala", number: 19, position: "Striker", squad: "Tiny Stars U9", age: 9, foot: "Right" },
+  { name: "GARBA ABBAS", number: 99, position: "CM", squad: "Elite U19", age: 19, foot: "BOTH", image: garbaAbbas.url },
+  { name: "KHALEEPHA", number: 99, position: "Right winger", squad: "Elite U19", age: 18, foot: "Right" },
+  { name: "MUSA NYALO", number: 99, position: "Right Winger", squad: "Elite U17", age: 16, foot: "Both" },
+  { name: "ABDULWAHAB RABIU", number: 99, position: "left winger", squad: "Elite U19", age: 19, foot: "Right" },
+  { name: "SADIQ MUSA GARBA", number: 99, position: "AM/CM", squad: "Elite U19", age: 18, foot: "Left" },
+  { name: "IBRAHIM ISAH GARBA", number: 99, position: "AM", squad: "Elite U17", age: 17, foot: "Right" },
+  { name: "FARUK SAID NABO", number: 99, position: "DM", squad: "Elite U17", age: 16, foot: "Right" },
+  { name: "MIKAIL FAISAL", number: 99, position: "CM/LW/AMF", squad: "Elite U20", age: 20, foot: "Right" },
+  { name: "MUHAMMAD ABDULLAHI ", number: 99, position: "AM", squad: "Elite U19", age: 17, foot: "Right" },
+  { name: "AHMAD DANKANE", number:99, position: "Left Winger", squad: "Elite U17", age: 17, foot: "Right" },
+  { name: "NAJIYULLAH ABUBAKAR UMAR", number: 99, position: "CF", squad: "Elite U17", age: 17, foot: "Right" },
+  { name: "AHMAD SAID SULAIMAN", number: 99, position: "LW", squad: "Elite U19", age: 19, foot: "Right" },
+  { name: "IBRAHIM AHMAD", number: 99, position: "DM", squad: "Elite U19", age: 19, foot: "Right" },
+  { name: "USMAN MUKHTAR", number: 99, position: "LW", squad: "Elite U20", age: 20, foot: "Right" },
+  { name: "SULAIMAN YAYA", number: 99, position: "RB", squad: "Elite U19", age: 19, foot: "Right" },
+  { name: "ABDULRAHMAN BALA", number: 99, position: "GK", squad: "GOALKEEPER", age: 27, foot: "Right" },
 ];
 
 type Player = typeof players[number] & { image?: string };
