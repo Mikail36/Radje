@@ -2,11 +2,15 @@ import { useEffect } from "react";
 import { User } from "lucide-react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import garbaAbbas from "@/assets/garba-abbas.jpg.asset.json";
+import garbaAbbas from "@/assets/Players/GARBA-ABBAS (1).jpeg";
+import Khaleepha from "@/assets/Players/KALEEPHA (2).jpeg";
+import musanyalo from "@/assets/Players/NYALO (3).jpeg";
+import Rabiumuktar from "@/assets/Players/ABBA-MUKTAR (5).jpeg";
 const players = [
-  { name: "GARBA ABBAS", number: 99, position: "CM", squad: "Elite U19", age: 19, foot: "BOTH", image: garbaAbbas.url },
-  { name: "KHALEEPHA", number: 99, position: "Right winger", squad: "Elite U19", age: 18, foot: "Right" },
-  { name: "MUSA NYALO", number: 99, position: "Right Winger", squad: "Elite U17", age: 16, foot: "Both" },
+  { name: "GARBA ABBAS", number: 99, position: "CM", squad: "Elite U19", age: 19, foot: "BOTH", image: garbaAbbas },
+  { name: "KHALEEPHA", number: 99, position: "Right winger", squad: "Elite U19", age: 18, foot: "Right", image: Khaleepha },
+  { name: "MUSA NYALO", number: 99, position: "Right Winger", squad: "Elite U17", age: 16, foot: "Both", image: musanyalo },
+  { name: "RABIU MUKTAR ABBA", number: 99, position: "Right Winger", squad: "Elite U19", age: 18, foot: "Right", image: Rabiumuktar },
   { name: "ABDULWAHAB RABIU", number: 99, position: "left winger", squad: "Elite U19", age: 19, foot: "Right" },
   { name: "SADIQ MUSA GARBA", number: 99, position: "AM/CM", squad: "Elite U19", age: 18, foot: "Left" },
   { name: "IBRAHIM ISAH GARBA", number: 99, position: "AM", squad: "Elite U17", age: 17, foot: "Right" },
@@ -19,7 +23,7 @@ const players = [
   { name: "IBRAHIM AHMAD", number: 99, position: "DM", squad: "Elite U19", age: 19, foot: "Right" },
   { name: "USMAN MUKHTAR", number: 99, position: "LW", squad: "Elite U20", age: 20, foot: "Right" },
   { name: "SULAIMAN YAYA", number: 99, position: "RB", squad: "Elite U19", age: 19, foot: "Right" },
-  { name: "ABDULRAHMAN BALA", number: 99, position: "GK", squad: "GOALKEEPER", age: 27, foot: "Right" },
+  { name: "ABDULRAHMAN BALA", number: 99, position: "GK", squad: "Elite U17", age: 17, foot: "Right" },
 ];
 
 type Player = typeof players[number] & { image?: string };

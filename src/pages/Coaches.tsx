@@ -1,58 +1,25 @@
 import { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import arounaAmadou from "@/assets/arouna-amadou.jpg.asset.json";
+import yahayaroma from "@/assets/coaches/YAHYA-ROMA (3).png";
+import Babandi from "@/assets/coaches/BABANDI (1).png";
 
 const coaches = [
   {
-    name: "Arouna Amadou Siradji",
+    name: "Yahaya Roma",
     role: "Club Coach",
-    badge: "Club Coach",
-    image: arounaAmadou.url,
+    badge: "CAF  liscense",
+    image: yahayaroma,
     bio: "Dedicated club coach at Radje Football Academy, committed to player development and team success.",
   },
   {
     name: "Coach Ibrahim Musa",
-    role: "Technical Director",
-    badge: "CAF A License",
-    image: "/team-group.jpg",
-    bio: "Over 15 years of coaching experience across youth and professional football. Leads our overall curriculum and Elite Squad.",
+    role: "Assitant coach",
+    badge: "Traino",
+    image: Babandi,
+    bio: "Over 4 years of coaching experience across youth and professional football. Leads our overall curriculum and Elite Squad.",
   },
-  {
-    name: "Coach Ahmed Abdullah",
-    role: "Head of Development",
-    badge: "CAF B License",
-    image: "/player-green-dribble.jpg",
-    bio: "Former professional player. Heads our U10–U13 Development Squad with a focus on technical mastery.",
-  },
-  {
-    name: "Coach Samuel Okorie",
-    role: "Goalkeeper Coach",
-    badge: "Goalkeeper Specialist",
-    image: "/player-mukabb.jpg",
-    bio: "Former national-team goalkeeper. Runs our dedicated goalkeeper program for U10 through U19.",
-  },
-  {
-    name: "Coach Yusuf Aliyu",
-    role: "U7–U9 Lead Coach",
-    badge: "FA Youth Award",
-    image: "/player-yellow-3.jpg",
-    bio: "Specialist in early-years football. Leads our Tiny Stars program with a fun-first philosophy.",
-  },
-  {
-    name: "Coach Sunday Abe",
-    role: "Fitness & Conditioning",
-    badge: "S&C Certified",
-    image: "/player-njalo.jpg",
-    bio: "Designs age-appropriate strength, conditioning, and injury-prevention programs across all squads.",
-  },
-  {
-    name: "Coach Mary Adamu",
-    role: "Player Welfare Lead",
-    badge: "Safeguarding Lead",
-    image: "/player-green-banner.jpg",
-    bio: "Oversees player welfare, education partnerships, and the academy's safeguarding policy.",
-  },
+
 ];
 
 const Coaches = () => {

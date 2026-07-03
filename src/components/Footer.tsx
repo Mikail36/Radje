@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Instagram, Mail, Phone, MapPin } from "lucide-react";
 import radjeLogo from "@/assets/radje-logo.asset.json";
+import { FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -21,20 +22,39 @@ const Footer = () => {
               A professional youth football academy in Kano, Nigeria — developing the next generation of African football talent
               through world-class coaching, modern training, and character-driven education.
             </p>
-            <div className="flex space-x-3">
-              {[Facebook, Twitter, Instagram, Youtube].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-pillars-yellow hover:text-pillars-dark transition-colors duration-300"
-                  aria-label="Social"
-                >
-                  <Icon size={18} />
-                </a>
-              ))}
-            </div>
-          </div>
+           <div className="flex space-x-3">
 
+  <a
+    href="https://www.facebook.com/share/194mbJko4R/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-pillars-yellow hover:text-pillars-dark transition-colors duration-300"
+  >
+    <Facebook size={18} />
+  </a>
+
+ 
+
+  <a
+    href="https://www.instagram.com/radjefootballacademy?igsh=c3o2dHdhMjM1c3Ny"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-pillars-yellow hover:text-pillars-dark transition-colors duration-300"
+  >
+    <Instagram size={18} />
+  </a>
+
+  <a
+    href="https://www.tiktok.com/@radje.football.aca?_r=1&_t=ZS-97fjreLVRIq"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-pillars-yellow hover:text-pillars-dark transition-colors duration-300"
+  >
+    <FaTiktok size={18} />
+  </a>
+
+</div>
+</div>
           <div>
             <h3 className="text-lg font-bold mb-6 relative inline-block">
               Explore
@@ -81,6 +101,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          
 
           <div>
             <h3 className="text-lg font-bold mb-6 relative inline-block">
@@ -96,6 +117,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      
 
       <div className="border-t border-white/10">
         <div className="container mx-auto px-4 py-6">

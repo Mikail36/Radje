@@ -3,16 +3,16 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const frames = [
-  { src: "/team-group.jpg", label: "Team Lineup", caption: "Radje Football Academy Squad" },
-  { src: "/player-yellow-1.jpg", label: "Matchday Kit", caption: "Home Yellow Strip" },
-  { src: "/player-yellow-2.jpg", label: "Player Portrait", caption: "Pre-Match" },
-  { src: "/player-yellow-3.jpg", label: "Training Ready", caption: "Academy Ground" },
+  { src: "/GROUP-PIC (11).jpeg", label: "Team Lineup", caption: "Radje Football Academy Squad" },
+  { src: "/GROUP-PIC (12).jpeg", label: "Pre game drills", caption: "session warm ups" },
+  { src: "/GROUP-PIC (19).jpeg", label: "Player Portrait", caption: "Show-Case" },
+  { src: "/GROUP-PIC (17).jpeg", label: "Training Ready", caption: "Academy Ground" },
   { src: "/player-khaleepha-1.jpg", label: "Khaleepha #11", caption: "On the Ball" },
-  { src: "/player-khaleepha-2.jpg", label: "Khaleepha #11", caption: "Running the Pitch" },
+  { src: "/KALEEPHA (10).jpeg", label: "Khaleepha #11", caption: "Running the Pitch" },
   { src: "/player-green-banner.jpg", label: "Away Strip", caption: "Radje Football Academy" },
   { src: "/player-green-dribble.jpg", label: "Dribble Drill", caption: "Training Session" },
   { src: "/player-njalo.jpg", label: "M. Njalo #7", caption: "Shooting Practice" },
-  { src: "/player-mukabb.jpg", label: "A. Mukabb #5", caption: "Strike on Goal" },
+  { src: "/ABBA-MUKTAR (7).jpeg", label: "A. Mukabb #5", caption: "Strike on Goal" },
   { src: "/garba-abbas.jpg", label: "Garba Abbas", caption: "Elite U17 Forward" },
 ];
 
