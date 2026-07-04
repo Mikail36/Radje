@@ -14,7 +14,7 @@ const HeroSection = () => {
       subtitle: "A professional youth football academy based in Kano, Nigeria — building world-class players through discipline, technique, and character.",
       cta: "Discover The Academy",
       link: "/about",
-      image: "/team-group.jpg",
+      image: "/radje-logo.jpg",
     },
     {
       id: 2,

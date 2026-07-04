@@ -11,7 +11,7 @@ const programs = [
   {
     title: "Tiny Stars (U7 – U9)",
     description: "Fun-first introduction to football. Coordination, ball familiarity, and confidence.",
-    image: "/player-yellow-3.jpg",
+    image: "/radje-logo.jpg",
   },
   {
     title: "Development Squad (U10 – U13)",

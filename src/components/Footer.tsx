@@ -132,7 +132,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-4 text-center text-gray-500 text-xs">
-            Designed by Dual Intelligence ICT Services Kano
+            Designed by Dual Intelligence ICT Services Kano<br />
+                      Modified by Mikail Faisal
           </div>
         </div>
       </div>

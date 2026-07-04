@@ -17,7 +17,7 @@ const Navbar = () => {
     { name: "Gallery", path: "/gallery" },
     { name: "News", path: "/news" },
     { name: "Contact", path: "/contact" },
-    { name: "Register", path: "/register" }
+    { name: "Apply Now!", path: "/register" }
   ];
 
   useEffect(() => {
