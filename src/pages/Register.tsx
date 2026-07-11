@@ -193,6 +193,7 @@ const handleReset = () => {
         <div className="container mx-auto px-4 md:px-6 text-center">
           <div className="pill-badge bg-pillars-yellow text-pillars-dark inline-block mb-6">Player Registration</div>
           <h1 className="mb-6">Join Radje Football Academy</h1>
+           <h2 className="mb-6">Note: There is an inclusive fee of 180,000 Naira when your application is accepted.</h2>
           <p className="text-white/90 max-w-2xl mx-auto text-lg">
             Begin your football journey with one of Nigeria's fastest-growing football academies. Complete the registration form below and take the first step toward becoming a Radje player.
           </p>

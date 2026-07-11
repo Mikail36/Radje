@@ -8,7 +8,7 @@ import musanyalo from "@/assets/Players/NYALO (3).jpeg";
 import Rabiumuktar from "@/assets/Players/ABBA-MUKTAR (5).jpeg";
 const players = [
   { name: "GARBA ABBAS", number: 99, position: "CM", squad: "Elite U19", age: 19, foot: "BOTH", image: garbaAbbas },
-  { name: "KHALEEPHA", number: 99, position: "Right winger", squad: "Elite U19", age: 18, foot: "Right", image: Khaleepha },
+  { name: "KHALEEPHA", number: 99, position: "CB", squad: "Elite U19", age: 18, foot: "Right", image: Khaleepha },
   { name: "MUSA NYALO", number: 99, position: "Right Winger", squad: "Elite U17", age: 16, foot: "Both", image: musanyalo },
   { name: "RABIU MUKTAR ABBA", number: 99, position: "Right Winger", squad: "Elite U19", age: 18, foot: "Right", image: Rabiumuktar },
   { name: "ABDULWAHAB RABIU", number: 99, position: "left winger", squad: "Elite U19", age: 19, foot: "Right" , image: "/radje-logo.jpg" },
